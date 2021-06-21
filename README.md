@@ -2,7 +2,12 @@
 1. reuired PHP Version 7.4.20
 2. node packge manager (npm) v 6.4
 3. laravel version 8 
-4. include jetstream and livewire
+4. include 
+    - jetstream
+    - livewire
+    - sweetalert (cooming soon)
+    - tailwindcss (cooming soon)
+    - passport (cooming soon)
 ## Installation
 1. Download repositor
 ```
@@ -39,7 +44,7 @@ php artisan db:seed
 ```
 ## structur folder controller
 ### API
-> selalu ada tanda/tulisan api di setiap controller api untuk membedakan dengan controller lainnya
+> selalu ada tanda/tulisan *api* di setiap controller api untuk membedakan dengan controller lainnya
 1. UserApiController
     - index : for get all data users
         - name
