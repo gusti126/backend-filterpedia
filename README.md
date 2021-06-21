@@ -20,7 +20,8 @@ npm run dev
 
 4. copy file .env.example and rename to .env
 
-5. cek in file .env **DB_DATABASE** Fill in the filterpedia database name and don't forget to create the database > DB_DATABASE=filterpedia
+5. cek in file .env **DB_DATABASE** Fill in the filterpedia database name and don't forget to create the database 
+> DB_DATABASE=filterpedia
 
 4. run migration 
 ``` 
