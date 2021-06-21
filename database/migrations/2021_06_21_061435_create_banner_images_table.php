@@ -16,6 +16,7 @@ class CreateBannerImagesTable extends Migration
         Schema::create('banner_images', function (Blueprint $table) {
             $table->id();
             $table->foreignId('banner_id')->constrained('banners')->onDelete('cascade');
+            $table->string('image');
             $table->timestamps();
         });
     }
