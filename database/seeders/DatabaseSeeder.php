@@ -23,6 +23,7 @@ class DatabaseSeeder extends Seeder
             GalleryProductSeeder::class,
             BannerSeeder::class,
             BannerImageSeeder::class,
+            ReviewsSeeder::class,
         ]);
     }
 }

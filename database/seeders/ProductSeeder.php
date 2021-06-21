@@ -23,7 +23,7 @@ class ProductSeeder extends Seeder
                 'thumbnail' => $faker->imageUrl($width = 640, $height = 480, 'cats'),
                 'deskripsi' => $faker->paragraph($nbSentences = 200, $variableNbSentences = true),
                 'stok' => $faker->randomNumber($nbDigits = 3, $strict = false),
-                'price' => $faker->randomNumber($nbDigits = 3, $strict = false),
+                'price' => random_int(10000000, 400000000),
             ]);
         }
     }
